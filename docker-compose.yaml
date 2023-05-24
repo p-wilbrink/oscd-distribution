@@ -5,6 +5,6 @@ services:
     build:
       context: '.'
     volumes:
-      - './p:/app/plugins'
+      - './plugins:/app/plugins'
     ports:
       - 9119:8080

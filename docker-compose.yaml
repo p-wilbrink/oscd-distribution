@@ -1,0 +1,10 @@
+version: '3.9'
+
+services:
+  openscd:
+    build:
+      context: '.'
+    volumes:
+      - './p:/app/plugins'
+    ports:
+      - 9119:8080
